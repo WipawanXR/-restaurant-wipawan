@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+<link rel="preconnect"
+      href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+      <style type="text/tailwindcss">
+        @theme{
+            --color-main-2: #D98327;
+            --color-main-3: #ECE8AF;
+            --color-main-4: #E6D8C3;
+            --color-main-5: #4A943E;
+
+            --color-main-6: #622B14;
+            --color-main-7: #995F2F;
+            --color-main-8: #978F66;
+            --color-main-9: #E4D6A9;
+            --color-main-10:#6061B6;
+
+            --font-prompt: 'Prompt', sans-serif;
+        }
+
+    </style>
+
+    </head>
+<body>
+    <nav class="bg-main-6 text-white p-4">
+        
+        <div class="flex lg:flex-row flex-col justify-between items-center">
+           
+            <img src="imgs/logo.jpg" alt="" width="45px "> 
+            
+            <!-- รายการเมนู -->
+             <div class="flex gap-6">
+                <a href="#" class="hover:text-amber-500">หน้าแรก</a>
+                <a href="#" class="hover:text-amber-500">สินค้า</a>
+                <a href="#" class="hover:text-amber-500">เกี่ยวกับเรา</a>
+                <a href="#" class="hover:text-amber-500">ติดต่อเรา</a>
+             </div>
+        </div>
+    </nav>
+
+        <div >
+            
+        <h1 class="bg-main-4 font-bold text-main-2 lg:text-2xl md:text-xl sm:text-lg font-bold text-center py-9">
+        <p class="text-4xl text-main-5">Tasty Table</p> 
+        รายการสินค้า
+        
+    </h1>
+    <p class="bg-main-4 font-bold font-bold px-5">
+        * อาหารจานเดียว</p>
+        <p class="bg-main-4 font-bold font-bold px-5">* เมนูเส้น</p>
+        <p class="bg-main-4 font-bold font-bold px-5">* ของหวาน</p> 
+       <p class="bg-main-4 font-bold font-bold px-5">* เครื่องดื่ม</p>
+    
+    
+        <h1 class="  text-main-10 lg:text-2xl md:text-xl sm:text-lg font-bold px-9 py-3 md:block hidden">
+        อาหารจานเดียว (Rice & Meal)
+    </h1>
+    
+    <div class="bg-main-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/f-1.jpg" alt="ข้าวกะเพราหมูสับ">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ข้าวกะเพราหมูสับ
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-5 my-4">
+                ฿69
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+         <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/f-2.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ข้าวผัดกุ้ง
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿89
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4 ">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/f-3.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ข้าวไข่ข้นแฮม
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-4 my-6">
+                ฿79
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/f-4.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ข้าวไก่ทอดซอสเกาหลี
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿99
+            </p>
+
+           <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/f-5.jpg" alt="" >
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ข้าวหมูกระเทียม
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿79
+            </p>
+
+           <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/f-6.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ข้าวหมูกรอบ
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿89
+            </p>
+
+           <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+    </div>
+
+    <!-- เมนูเส้น -->
+    <h1 class="  text-main-10 lg:text-2xl md:text-xl sm:text-lg font-bold px-9 py-3 md:block hidden">
+       เมนูเส้น (Noodle & Pasta)
+    </h1>
+
+     <div class="bg-main-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/s-1.jpg" alt="ข้าวกะเพราหมูสับ">
+                </span>
+            </div>
+
+            <h2 class="text-main-7 text-xl font-prompt font-semibold mt-4">
+                สปาเกตตีคาโบนารา
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿129
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+         <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/s-2.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ผัดไทยกุ้งสด
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿119
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/s-3.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ราเมนหมูชาชู
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿139
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/s-4.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                มาม่าต้มยำทะเล
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿99
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/s-5.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                สปาเกตตีซอสมะเขือเทศ
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿119
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/s-6.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                สปาเกตตีผัดพริกแห้งเบคอน
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿129
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+    
+    </div>
+
+  <!-- ของหวาน -->
+    <h1 class="  text-main-10 lg:text-2xl md:text-xl sm:text-lg font-bold px-9 py-3 md:block hidden">
+       ของหวาน (Dessert)
+    </h1>
+
+
+     <div class="bg-main-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-1.jpg" alt="ข้าวกะเพราหมูสับ">
+                </span>
+            </div>
+
+            <h2 class="text-main-7 text-xl font-prompt font-semibold mt-4">
+                ฮันนี่โทสต์
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿139
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+         <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-2.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                บราวนี่ช็อกโกแลต
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿69
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-3.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ชีสเค้ก
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿99
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-4.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                วาฟเฟิลไอศกรีม
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿89
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-5.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+               วาฟเฟิลไอศกรีม
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿79
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-6.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ช็อกโกแลตลาวา
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿109
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+    
+    </div>
+
+     <!-- เครื่องดื่ม -->
+    <h1 class="  text-main-10 lg:text-2xl md:text-xl sm:text-lg font-bold px-9 py-3 md:block hidden">
+       เครื่องดื่ม (Beverages)
+    </h1>
+
+      <div class="bg-main-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/d-1.jpg" alt="ข้าวกะเพราหมูสับ">
+                </span>
+            </div>
+
+            <h2 class="text-main-7 text-xl font-prompt font-semibold mt-4">
+                อเมริกาโน่เย็น
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿65
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+         <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/d-2.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ลาเต้เย็น
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿75
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/b-3.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                มัทฉะลาเต้
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿85
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/d-4.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+                ชาไทยเย็น
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿60
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/d-5.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+               สตรอว์เบอร์รีโซดา
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿65
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <div >
+                <span class="text-4xl">
+                    <img src="imgs/d-6.jpg" alt="">
+                </span>
+            </div>
+
+            <h2 class="font-prompt text-main-7 text-xl font-semibold mt-4">
+               ช็อกโกแลตเย็น
+            </h2>
+
+            <p class="text-blue-600 font-prompt font-bold mt-3 my-4">
+                ฿75
+            </p>
+
+            <a href="#" class="hover:text-main-6 bg-main-5  text-white px-4 py-2
+                 rounded-md mt-4">ดูรายละเอียด</a>
+        </div>
+    
+    </div>
+
+    <footer>
+        <p  class="bg-main-3 text-2xl font-prompt font-bold text-main-6 text-center p-4">Tasty Table & wipawan</p>
+        <p class="bg-main-3 text-main-6 font-prompt font-bold p-1">TEL : 0950890532</p>
+        <p class="bg-main-3 text-main-6 font-prompt font-bold p-1 ">GMAIL : wipawan5569@gmail.com</p>
+        <p class="bg-main-3 text-main-6 font-prompt font-bold p-1">ADDRESS : 87/2 ม.7 ต.หนองงูเหลือม อ.เมือง จ.นครปฐม 73000</p>
+   
+    </footer>
+</body>
+</html>
